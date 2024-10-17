@@ -62,13 +62,15 @@
   /* align-items: center; */
   padding: 0.5em;
   width: auto;
+  max-width: 230em;
   height: 80%;
   border-style: solid;
 }
 /* .InfoBlurb p {
   font-size: larger;
 } */
-.InfoBlurpPlanet p {
+.InfoBlurpPlanet p,
+q {
   font-size: 2em;
 }
 .InfoBlurpPlanet h2 {
@@ -85,7 +87,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 99.5%;
+  width: 99.6%;
   border-style: solid;
 }
 .PictureFrame {
@@ -129,34 +131,42 @@
 }
 .FactionHegemony {
   color: rgba(245, 150, 30, 255);
+  border-color: rgba(245, 150, 30, 255);
   /* background-color: black; */
 }
 .FactionPerseanLeague {
   color: rgba(220, 185, 55, 255);
+  border-color: rgba(220, 185, 55, 255);
   /* background-color: blue; */
 }
 .FactionSindrianDiktat {
   color: rgba(180, 0, 120, 255);
+  border-color: rgba(180, 0, 120, 255);
   /* background-color: white; */
 }
 .FactionTriTachCorp {
   color: rgba(135, 206, 255, 255);
+  border-color: rgba(135, 206, 255, 255);
   /* background-color: white; */
 }
 .FactionLuddicChurch {
   color: rgba(5, 115, 10, 255);
+  border-color: rgba(5, 115, 10, 255);
   /* background-color: white; */
 }
 .FactionLuddicPath {
   color: rgba(180, 255, 95, 255);
+  border-color: rgba(180, 255, 95, 255);
   /* background-color: black; */
 }
 .FactionPirate {
   color: rgba(255, 0, 0, 255);
+  border-color: rgba(255, 0, 0, 255);
   /* background-color: black; */
 }
 .FactionIndependent {
   color: rgba(150, 150, 150, 255);
+  border-color: rgba(150, 150, 150, 255);
   /* background-color: black; */
 }
 .PlanetKiller {
