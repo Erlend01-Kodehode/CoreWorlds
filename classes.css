@@ -47,7 +47,7 @@
 .InfoBlurb {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* align-items: center; */
   padding: 0.5em;
   width: auto;
@@ -58,19 +58,28 @@
 .InfoBlurpPlanet {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* align-items: center; */
   padding: 0.5em;
   width: auto;
   max-width: 230em;
-  height: 80%;
+  /* height: 80%; */
+  max-height: max-content;
   border-style: solid;
 }
-/* .InfoBlurb p {
-  font-size: larger;
-} */
-.InfoBlurpPlanet p,
-q {
+.InfoBlurb p {
+  font-size: 1.5em;
+}
+.InfoBlurb q {
+  font-size: 1.5em;
+}
+.InfoBlurb li {
+  font-size: 1.5em;
+}
+.InfoBlurpPlanet p {
+  font-size: 2em;
+}
+.InfoBlurpPlanet q {
   font-size: 2em;
 }
 .InfoBlurpPlanet h2 {
@@ -88,7 +97,9 @@ q {
   justify-content: center;
   align-items: center;
   width: 99.6%;
+  min-height: 20em;
   border-style: solid;
+  padding: 0.5em 0em;
 }
 .PictureFrame {
   display: flex;
@@ -123,11 +134,21 @@ q {
   width: 70%;
   height: 100%;
 }
+.Content img {
+  border-style: none;
+}
 .NoBorder {
   border-style: none;
 }
 .Subtitle {
   font-weight: bold;
+}
+.ImageBig {
+  max-width: 20em;
+}
+.ImageSmall {
+  max-width: 10em;
+  min-height: 6em;
 }
 .FactionHegemony {
   color: rgba(245, 150, 30, 255);
@@ -144,6 +165,10 @@ q {
   border-color: rgba(180, 0, 120, 255);
   /* background-color: white; */
 }
+.FactionLionGuard {
+  color: rgba(160, 0, 95, 255);
+  border-color: rgba(160, 0, 95, 255);
+}
 .FactionTriTachCorp {
   color: rgba(135, 206, 255, 255);
   border-color: rgba(135, 206, 255, 255);
@@ -153,6 +178,10 @@ q {
   color: rgba(5, 115, 10, 255);
   border-color: rgba(5, 115, 10, 255);
   /* background-color: white; */
+}
+.FactionKnights {
+  color: rgba(30, 80, 0, 255);
+  border-color: rgba(30, 80, 0, 255);
 }
 .FactionLuddicPath {
   color: rgba(180, 255, 95, 255);
@@ -168,6 +197,10 @@ q {
   color: rgba(150, 150, 150, 255);
   border-color: rgba(150, 150, 150, 255);
   /* background-color: black; */
+}
+.FactionRemnant {
+  color: rgba(70, 255, 235, 255);
+  border-color: rgba(70, 255, 235, 255);
 }
 .PlanetKiller {
   /* color: black;

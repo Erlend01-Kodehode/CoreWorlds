@@ -1,0 +1,7 @@
+div,
+table,
+th,
+td,
+img {
+  border-color: rgba(30, 80, 0, 255);
+}
